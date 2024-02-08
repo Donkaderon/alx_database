@@ -1,3 +1,5 @@
--- Database creation
-CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
+SET @database_name = '';
 
+SHOW TABLES
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_SCHEMA = @database_name;

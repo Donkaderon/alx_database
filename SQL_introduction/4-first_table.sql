@@ -1,6 +1,6 @@
 -- CREATE NEW TABLE
 
-CREATE TABLE IF NOT EXISTS ${database_name}.first_table (
+CREATE TABLE IF NOT EXISTS first_table (
     id INT,
     name VARCHAR(256)
 );

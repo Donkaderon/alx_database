@@ -1,7 +1,7 @@
 -- Project 4
 -- QUERY to display tables of mysql DATABASE
 
-SET @database_name = 'mysql';
+SET @database_name = '';
 
 SELECT TABLE_NAME
 FROM INFORMATION_SCHEMA.TABLES
