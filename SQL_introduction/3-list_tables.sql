@@ -1,4 +1,8 @@
 -- Project 4
 -- QUERY to display tables of mysql DATABASE
 
-SHOW TABLES FROM mysql;
+-- SHOW TABLES FROM mysql;
+
+SELECT TABLE_NAME
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_SCHEMA = 'mysql';
