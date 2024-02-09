@@ -1,8 +1,7 @@
 -- Project 4
--- QUERY to display tables of mysql DATABASE
+-- QUERY to display tables of a variable DATABASE inserted via command line
+USE your_database_name;
 
-SET @database_name = '';
-
-SELECT TABLE_NAME
-FROM INFORMATION_SCHEMA.TABLES
-WHERE TABLE_SCHEMA = @database_name;
+SELECT table_name
+FROM information_schema.tables
+WHERE table_schema = DATABASE();
