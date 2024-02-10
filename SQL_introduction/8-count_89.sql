@@ -2,5 +2,5 @@
 -- Counting the number of rows
 
 SELECT COUNT(*) 
-FROM firs_table
+FROM first_table
 WHERE id= 89;
