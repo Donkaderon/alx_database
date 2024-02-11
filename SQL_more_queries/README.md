@@ -1,0 +1,1 @@
+This is a readme file for the 2nd folder for sql learning.
